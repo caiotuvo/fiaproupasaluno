@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="rm0000QuiosqueEAR">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="rm0000Quiosque.war" deploy-path="/" handle="module:/resource/rm0000Quiosque/rm0000Quiosque">
+            <dependent-object>Module_1375824437909</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rm44159ecom.war" deploy-path="/" handle="module:/resource/rm44159ecom/rm44159ecom">
+            <dependent-object>Module_1375831553120</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
