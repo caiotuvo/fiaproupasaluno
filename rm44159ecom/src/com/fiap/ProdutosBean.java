@@ -5,10 +5,6 @@ package com.fiap;
 
 import javax.faces.bean.ManagedBean;
 
-/**
- * @author RM44159
- *
- */
 @ManagedBean(name="p")
 public class ProdutosBean {
 
