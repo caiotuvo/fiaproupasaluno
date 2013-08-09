@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vendas</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="rotuloDescricao">Descrição</string>
+    <string name="rotuloCodigoProduto">Código do Produto</string>
+    <string name="rotuloBotao">Pesquisar</string>
+
+</resources>
