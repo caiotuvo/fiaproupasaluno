@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 // implementa interface para capturar ação do botão
 public class MainActivity extends Activity implements OnClickListener {
@@ -34,8 +35,12 @@ public class MainActivity extends Activity implements OnClickListener {
 		// retorna em forma de array de bytes
 		if (codProduto.getText().toString().equals("1")) {
 			descricao.setText("Blusa");
+			
+			Toast.makeText(this, "R$ 10,00 !", Toast.LENGTH_LONG).show();
 		} else {
 			descricao.setText("Calça");
+			
+			Toast.makeText(this, "R$ 20,00 !", Toast.LENGTH_LONG).show();
 		}
 		
 		AlertDialog.Builder b = new AlertDialog.Builder(this);
@@ -44,5 +49,4 @@ public class MainActivity extends Activity implements OnClickListener {
 		b.setPositiveButton("Ok", null);
 		b.show();
 	}
-
 }
