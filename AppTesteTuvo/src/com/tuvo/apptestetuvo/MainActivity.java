@@ -29,5 +29,9 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+    
+    //teste consumir webservice
+    /*Webservice ws = new Webservice(this, "http://www.endereco.com.br/CalculadoraWS");
+    ws.consumir(xml); */
  
 }
